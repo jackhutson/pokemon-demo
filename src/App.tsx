@@ -1,11 +1,9 @@
 import { useCallback, useEffect, useState } from 'react';
-// import { getPokemon } from './services/getPokemon';
-// import { Pokemon } from './types/pokemon';
 import { PokemonCard } from './components/PokemonCard';
 import { Button } from './components/ui/button';
 import { Input } from './components/ui/input';
-import { Loader2 } from 'lucide-react';
-import { usePokemon } from './hooks/usePokemon';
+// import { Loader2 } from 'lucide-react';
+// import { usePokemon } from './hooks/usePokemon';
 import { getPokemon } from './services/getPokemon';
 import { Pokemon } from './types/pokemon';
 
